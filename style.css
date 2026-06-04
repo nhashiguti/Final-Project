@@ -855,11 +855,22 @@ button {
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
+.plans__blob {
+    z-index: -10;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
+    height: 256px;
+    width: 256px;
+    opacity: .25;
+}
+
+path {
+    fill: rgb(255, 180, 188);
+}
 
 
-
-
- 
  /* TESTIMONIALS ↓*/
 
 
